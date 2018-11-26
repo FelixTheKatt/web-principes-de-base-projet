@@ -1,0 +1,661 @@
+/*sharedcss*/
+/* The Modal (background) */
+#loginmodal i{
+    margin-right: 10px;
+}
+.modalLogin {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modalLogin-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animemodal;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animemodal {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animemodal {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modalLogin-header {
+    background-color: #3c485b;
+    color: white;
+}
+
+.modalLogin-body {
+    color: black;
+}
+
+.modalLogin-footer {
+    background-color: #3c485b;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+}
+body
+{
+    background-color: #3c485b;
+    color: #f8f5f5;
+    height: 100%
+}
+.defaultbutton{
+    background-color: #3B3FB2;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color:#f7f7f7 ;
+    opacity: 0.8;
+    font-size: medium;
+}
+.defaultbuttoncircle{
+    background-color: #3B3FB2;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color:#f7f7f7 ;
+    opacity: 0.8;
+    font-size: medium;
+    border-radius: 180%;
+}
+.marginUnderDiv{
+    margin-top: 20px;
+}
+.imgLogo
+{
+    width: 150px;
+    max-width: 250px;
+    height: 80px;
+    max-height: 150px;
+}
+footer{
+    background-color: #fd7e14;
+    width:100%;
+    position: relative;
+}
+#footer h2{
+    font-family: Charcoal,"Helvetica Neue",sans-serif;
+    color:#3c485b ;
+    font-size: x-large;
+}
+#footer i{
+    border-radius: 180%;
+    font-size: 3em;
+    color: #3B3FB2;
+    margin-right: 15px;
+}
+#footer a{
+    font-family: Charcoal,"Helvetica Neue",sans-serif;
+    color:#3B3FB2 ;
+    font-size: medium;
+}
+.backgroundsection{
+    background-color:#000A1A ;
+}
+/*carousel home.html*/
+.imgSlide1{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll url(../images/carousel/audience-celebration-concert-1190297.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imgSlide2{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll url(../images/carousel/album-Inside-Me.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imgSlide3{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll url(../images/carousel/art-artwork-audio-1308754.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carouselDiv{
+    background-color: #f8f5f5;
+    opacity: 0.5;
+}
+.h2carousel{
+    font-family: "monospace","Helvetica Neue",sans-serif;
+    color:#3B3FB2 ;
+    opacity: 0.7;
+    font-size: xx-large;
+    text-align: center;
+}
+.pcarousel{
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color:#3B3FB2 ;
+    font-size: x-large;
+    opacity: 0.8;
+}
+.carouselButton{
+    opacity: 0.5;
+    background-color: #3B3FB2;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color:#f8f5f5 ;
+    font-size: xx-large;
+
+}
+#news img{
+    height: 200px;
+    width: 250px;
+    padding-top: 1px;
+}
+#news h2{
+    font-family: Charcoal,"Helvetica Neue",sans-serif;
+    color:#f8f5f5 ;
+    font-size: xx-large;
+    text-align: center;
+}
+.divNews{
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color:#f8f5f5 ;
+    font-size: medium;
+    opacity: 0.8;
+    background-color: #444;
+}
+.stick {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #444;
+    color: #f8f5f5;
+}
+#stat h2{
+    font-family: Charcoal,"Helvetica Neue",sans-serif;
+    color:#f8f5f5 ;
+    font-size: xx-large;
+    text-align: center;
+}
+#stat i {
+    font-size: 3em;
+    color: #000A1A;
+    margin-right: 15px;
+}
+#stat p{
+    color: #f8f5f5;
+    font-family: "Cambria Math","Helvetica Neue",sans-serif;
+    font-size: larger;
+}
+#video h2{
+    font-family: "Cambria Math","Helvetica Neue",sans-serif;
+    color:#f8f5f5 ;
+    font-size: xx-large;
+    text-align: center;
+}
+/*aboutus*/
+.animatedcss {
+    width: 100px;
+    background-color: #444;
+    position: relative;
+    -webkit-animation-name: titlemoving;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear ;
+    -webkit-animation-iteration-count: infinite;
+    animation: titlemoving 5s linear 2s infinite ;
+}
+@-webkit-keyframes titlemoving {
+    0%   {background-color:#444; left:-50px; }
+    25%  {background-color:#3B3FB2; left: 1px }
+    50%  {background-color:#FF7E45; left:50px; }
+    75%  {background-color:#3B3FB2; left:100px; }
+    100% {background-color:#444; left:1px; }
+}
+
+@keyframes titlemoving {
+    0%   {background-color:#444; left:-50px; }
+    25%  {background-color:#3B3FB2; left: 1px }
+    50%  {background-color:#FF7E45; left:50px; }
+    75%  {background-color:#3B3FB2; left:100px; }
+    100% {background-color:#444; left:1px; }
+}
+.animatedTitle{
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color: #f8f5f5;
+    text-align: center;
+    font-size: x-large;
+}
+#timeline h4{
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color: #FF7E45;
+    text-align: center;
+    font-size: x-large;
+}
+#timeline h5{
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color: #FF7E45;
+    margin-right: 2%;
+    font-size: large;
+}
+#timeline p{
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color: #f8f5f5;
+    font-size: medium;
+}
+ul.timeline {
+    list-style:none;
+    position: relative;
+}
+ul.timeline:before {
+    content: "";
+    background: #FF7E45;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: "";
+
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid #000A1A;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+
+}
+#about h3
+{
+    text-align: center;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color: #FF7E45;
+}
+#about p{
+    text-align: center;
+    font-family: "Cambria Math","Helvetica Neue",sans-serif;
+    color: #f8f5f5;
+}
+#team h2
+{
+    text-align: center;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color: #3B3FB2;
+}
+#team img {
+    padding-top: 75px;
+    border-radius: 180%;
+}
+#team div {
+    border: 1px groove #f8f5f5;
+    background-color: #FF7E45;
+    color: #f8f5f5;
+    font-size: medium;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+}
+#team a{
+    color: #3B3FB2;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+}
+/*services*/
+
+#phototour h2{
+    text-align: center;
+    color: #FF7E45;
+}
+#phototour img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 200px;
+}
+.divcontainerphototour {
+    margin-top: 15px;
+}
+.thumbnail{
+    padding: 5px 0 15px 0;
+    opacity: 0.7;
+    background-color: #444;
+    border: none;
+    border-radius: 0;
+}
+
+#phototour  p {
+    margin-top: 15px;
+}
+#MariageBirthdays h2{
+    text-align: center;
+    color: #FF7E45;
+}
+#MariageBirthdays div{
+    color:#f8f5f5 ;
+}
+/*Gallery */
+.row > .column {
+    padding: 0 8px;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+/* floats next to eachother */
+.column {
+    float: left;
+}
+.topMargin
+{
+    margin-top: 20px;
+}
+.imgalery{
+    padding-top: 10px;
+    width: 300px;
+    height: 200px;
+}
+.imgalery:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/* The Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #1b1e21;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #f7f7f7;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black events color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: #721c24;
+    opacity: 0.8;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.imgModal
+{
+    margin-left: 50px;
+    width: 800px;
+    height: 600px;
+}
+/* Caption text */
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+img.gallery {
+    opacity: 0.6;
+    height: 150px;
+    width: 100px;
+}
+
+.active,
+.gallery:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*songs*/
+#playlist h2{
+    text-align: center;
+    color: #FF7E45;
+
+}
+#playlist{
+    list-style: none;
+
+}
+#playlist li{
+    background-color: #79CC50;
+}
+#playlist li a{
+    color:#f8f5f5;
+    text-decoration: none;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    font-size: medium;
+}
+#playlist .current-song a{
+    color:#3B3FB2;
+}
+/*event*/
+.videoContainer {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+.videoBackground {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.containerInsideVideo{
+    position: relative;
+    z-index: 2;
+}
+.opacityTitle{
+    color: rgba(255,255,255,0.5);
+    font-family: "impact", Charcoal, sans-serif;
+}
+.videoOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+#event img{
+
+    height: 280px;
+    width: 350px;
+}
+
+#event div{
+    margin-top: 10px;
+    background-color: #f8f5f5;
+    color: #3B3FB2;
+    font-family: "Cambria Math","Helvetica Neue", sans-serif;
+    border-right: 2px solid #3B4654;
+}
+/*contact*/
+#contact i{
+    border-radius: 180%;
+    font-size: 3em;
+    margin-right: 15px;
+}
+#contact div{
+    color: #f8f5f5;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+}
+#contact h3{
+    text-align: center;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color: #f8f5f5;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+#comment img{
+    height: 90px;
+    width: 90px;
+    border-radius: 180%;
+}
+#comment h2{
+    text-align: center;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color: #f8f5f5;
+}
+#divcomment div{
+    background-color:#FF7E45;
+    margin-top: 20px;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+}
+#divcomment h3{
+    text-align: center;
+    font-family: "Courier New","Helvetica Neue",sans-serif;
+    color: black;
+}
